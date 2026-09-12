@@ -51,12 +51,19 @@ This is a living repository: it grows as my understanding of Python and software
 | Project | Description | Status |
 |---|---|---|
 | [**01 — Library Py**](./01-library-py) | A terminal-based (CLI) library management system, built to practice classes, object relationships, and encapsulation. | ✅ Available |
+| [**02 — Banking System**](./02%20banking%20system) | A terminal-based (CLI) banking system, built to practice inheritance across multiple bank-specific account subclasses. | ✅ Available |
 
 ### 🔹 Library Py
 
 A command-line library management system where books and users are modeled as objects, with operations to register, list, borrow, and return books. This is the first project of the repository and the foundation for the OOP concepts explored here.
 
 ➡️ [View project](./01-library-py)
+
+### 🔹 Banking System
+
+A command-line banking system where users register an account tied to a specific bank (Nubank, Mercado Pago, Itaú, Inter, or Santander) and can deposit, withdraw, transfer via Pix, and manage their account info. This project shifts the focus to **inheritance**, extending a base `Account` class into several bank-specific subclasses.
+
+➡️ [View project](./02%20banking%20system)
 
 ---
 
@@ -71,7 +78,7 @@ A command-line library management system where books and users are modeled as ob
 | Lists of objects | ✅ In use |
 | Relationships between objects | ✅ In use |
 | Encapsulation | 🟡 In progress |
-| Inheritance | ⬜ Planned |
+| Inheritance | ✅ In use |
 | Polymorphism | ⬜ Planned |
 | Composition | ⬜ Planned |
 
@@ -84,6 +91,11 @@ POO-Projects-Python/
 ├── 01-library-py/
 │   ├── main.py
 │   └── README.md
+├── 02 banking system/
+│   ├── account.py
+│   ├── bank.py
+│   ├── main.py
+│   └── README.md
 └── README.md
 ```
 
@@ -94,8 +106,9 @@ Each project lives in its own numbered folder, with its own `README.md` explaini
 ## 🧭 Roadmap / Next Projects
 
 - [x] **01 — Library Py**: CLI library management system
-- [ ] **02 — TBD**: *Coming Soon* — next project focused on inheritance and polymorphism
-- [ ] **03 — TBD**: *Planned* — project focused on composition and object relationships
+- [x] **02 — Banking System**: CLI banking system focused on inheritance
+- [ ] **03 — TBD**: *Planned* — next project focused on polymorphism
+- [ ] **04 — TBD**: *Planned* — project focused on composition and object relationships
 - [ ] Refactor early projects as new concepts are learned
 
 > New projects are added incrementally as new OOP concepts are studied and applied.
@@ -108,10 +121,12 @@ Each project is self-contained inside its own folder. To run one:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/POO-Projects-Python.git
+git clone https://github.com/gabriellourenzattoo/POO-Projects-Python-
 
 # Navigate into the desired project
 cd POO-Projects-Python/01-library-py
+# or, for the banking system (note the quotes, since the folder name has a space):
+cd "POO-Projects-Python/02 banking system"
 
 # Run it with Python 3
 python main.py
@@ -136,3 +151,4 @@ The complexity here is intentional: starting simple, adding one concept at a tim
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD43B,35:306998,100:0D1B2A&height=120&section=footer" width="100%" />
 </p>
+
