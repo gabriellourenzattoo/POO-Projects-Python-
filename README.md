@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1B2A,35:306998,100:FFD43B&height=220&section=header&text=POO%20Projects%20Python&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Object-Oriented%20Programming%20%E2%80%94%20Learning%20by%20Building&descAlignY=60&descSize=16" width="100%" />
 </p>
@@ -52,6 +53,7 @@ This is a living repository: it grows as my understanding of Python and software
 |---|---|---|
 | [**01 — Library Py**](./01-library-py) | A terminal-based (CLI) library management system, built to practice classes, object relationships, and encapsulation. | ✅ Available |
 | [**02 — Banking System**](./02%20banking%20system) | A terminal-based (CLI) banking system, built to practice inheritance across multiple bank-specific account subclasses. | ✅ Available |
+| [**03 — The Python's Dungeons**](./03-The-Python's-dungeons) | A terminal-based (CLI) RPG, built to practice polymorphism across multiple character and enemy subclasses. |  ✅ Available |
 
 ### 🔹 Library Py
 
@@ -64,6 +66,12 @@ A command-line library management system where books and users are modeled as ob
 A command-line banking system where users register an account tied to a specific bank (Nubank, Mercado Pago, Itaú, Inter, or Santander) and can deposit, withdraw, transfer via Pix, and manage their account info. This project shifts the focus to **inheritance**, extending a base `Account` class into several bank-specific subclasses.
 
 ➡️ [View project](./02%20banking%20system)
+
+### 🔹 The Python's Dungeons
+
+A terminal-based RPG where playable characters (`Mage`, `Warrior`, `Assassin`, `Tank`, `Archer`) and enemies (`Enemy` and its subclasses) battle each other, each with their own attributes and behavior. This project pushes further into **polymorphism**, with shared methods like attacking and taking damage behaving differently depending on the class.
+
+➡️ [View project](./03-The-Python's-dungeons)
 
 ---
 
@@ -79,7 +87,7 @@ A command-line banking system where users register an account tied to a specific
 | Relationships between objects | ✅ In use |
 | Encapsulation | 🟡 In progress |
 | Inheritance | ✅ In use |
-| Polymorphism | ⬜ Planned |
+| Polymorphism | 🟡 In progress |
 | Composition | ⬜ Planned |
 
 ---
@@ -96,6 +104,12 @@ POO-Projects-Python/
 │   ├── bank.py
 │   ├── main.py
 │   └── README.md
+├── 03-The-Python's-dungeons/
+│   ├── character.py
+│   ├── rpgclass.py
+│   ├── enemy.py
+│   ├── main.py
+│   └── README.md
 └── README.md
 ```
 
@@ -107,7 +121,7 @@ Each project lives in its own numbered folder, with its own `README.md` explaini
 
 - [x] **01 — Library Py**: CLI library management system
 - [x] **02 — Banking System**: CLI banking system focused on inheritance
-- [ ] **03 — TBD**: *Planned* — next project focused on polymorphism
+- [x] **03 — The Python's Dungeons**: CLI RPG focused on polymorphism
 - [ ] **04 — TBD**: *Planned* — project focused on composition and object relationships
 - [ ] Refactor early projects as new concepts are learned
 
@@ -127,6 +141,8 @@ git clone https://github.com/gabriellourenzattoo/POO-Projects-Python-
 cd POO-Projects-Python/01-library-py
 # or, for the banking system (note the quotes, since the folder name has a space):
 cd "POO-Projects-Python/02 banking system"
+# or, for the RPG:
+cd "POO-Projects-Python/03-The-Python's-dungeons"
 
 # Run it with Python 3
 python main.py
@@ -151,4 +167,3 @@ The complexity here is intentional: starting simple, adding one concept at a tim
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD43B,35:306998,100:0D1B2A&height=120&section=footer" width="100%" />
 </p>
-
