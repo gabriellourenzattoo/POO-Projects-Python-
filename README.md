@@ -122,7 +122,7 @@ Each project lives in its own numbered folder, with its own `README.md` explaini
 - [x] **01 — Library Py**: CLI library management system
 - [x] **02 — Banking System**: CLI banking system focused on inheritance
 - [x] **03 — The Python's Dungeons**: CLI RPG focused on polymorphism
-- [ ] **04 — TBD**: *Planned* — project focused on composition and object relationships
+- [ ] **04 — RPG**: A feature-rich RPG in Python.
 - [ ] Refactor early projects as new concepts are learned
 
 > New projects are added incrementally as new OOP concepts are studied and applied.
